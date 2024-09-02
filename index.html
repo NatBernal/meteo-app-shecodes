@@ -26,13 +26,17 @@
             <div class="overview">
                 <div class="location">
                     <h1 id="city">Paris</h1>
-                    <p>
-                        Tuesday 14:49, scattered clouds
+                    <p class="current-weather">
+                        <span id="time">Tuesday 14:49</span>, <span id="weather-description">scattered clouds</span>
                         <br />
-                        Humidity: 66%, Wind: 3.13km/h
+                        <strong>Humidity:</strong> <span id="humidity">66%</span> , <strong>Wind: </strong><span
+                            id="wind-speed">3.13km/h</span>
                     </p>
                 </div>
-                <div class="current-temperature-container">🌤️ <div id="current-temperature">12</div>°C</div>
+                <div class="current-temperature-container">
+                    <div id="icon">🌤️</div>
+                    <div id="current-temperature">12</div>°C
+                </div>
             </div>
         </main>
 

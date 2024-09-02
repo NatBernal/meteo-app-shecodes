@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-        <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="weather-app">
+    <header>
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city.." required class="city-form"/>
+            <input type="submit" value="Search" class="search-city-form"/>
+        </form>
     </header>
+
     <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>🌤️ 12°C</div>
+        <div class="overview">
+        <div class="location">
+            <h1>Paris</h1>
+            <p>
+                Tuesday 14:49, scattered clouds
+                <br />
+                Humidity: 66%, Wind: 3.13km/h
+            </p>
+        </div>
+        <div class="current-temperature">🌤️ 12°C</div>
+        </div>
     </main>
+
     <footer>
-      Coded by
-      <a href="https://github.com/NatBernal"
-        >Natalia Bernal </a>, open-sourced on
+        Coded by
+        <a href="https://github.com/NatBernal">Natalia Bernal </a>, open-sourced on
         <a href="https://github.com/NatBernal/meteo-app-shecodes">Github</a>
         and hosted on
         <a href="https://meteo-app-natalia.netlify.app/">Netlify</a>
-      </a>
+        </a>
     </footer>
-  </body>
+
+    </div>
+
+</body>
+
 </html>

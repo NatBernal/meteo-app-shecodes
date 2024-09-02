@@ -37,7 +37,7 @@ h1 {
   gap: 10px;
 }
 
-.search-city-form {
+.search-city-buttom {
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid #668ba4;
@@ -45,11 +45,11 @@ h1 {
   color: white;
 }
 
-.search-city-form:hover {
+.search-city-buttom:hover {
   background-color: #4b6a9b;
 }
 
-.city-form {
+.search-form-input {
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid #668ba4;

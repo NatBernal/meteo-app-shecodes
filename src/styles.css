@@ -63,8 +63,11 @@ h1 {
   padding: 0 20px;
 }
 
-.overview .current-temperature {
-  font-size: 300%;
+.overview .current-temperature-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 50px;
 }
 
 footer {

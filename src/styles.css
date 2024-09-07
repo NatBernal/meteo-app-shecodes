@@ -109,7 +109,7 @@ p strong {
 
 .weather-forecast-icon {
   margin-bottom: 10px;
-  font-size: 50px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }

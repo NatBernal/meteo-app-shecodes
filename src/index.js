@@ -1,4 +1,4 @@
-const apiKey = "tb2ao78a593914ebf4f9e2500f3e40d8";
+const apiKey = API_KEY;
 
 function formatDate(date) {
   let minutes = date.getMinutes();
